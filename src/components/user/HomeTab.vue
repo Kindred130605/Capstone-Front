@@ -1,81 +1,69 @@
 <template>
-  <div class="home">
-      
+  <main class="background-container">
+    <div class="content-container">
 
+      <img src="@/assets/techfix.png" alt="TechFix Logo" class="logo" />
+      <h1>Welcome to <br> TechFix</h1>
+      <p class="p1">Your repair starts here!</p>
 
-
-    <main>
-
-    </main>
-
-  </div> 
+    </div>
+  </main>
 </template>
 
 <script>
 export default {
-  name: 'LandingPage'
+  name: 'YourComponent'
 }
 </script>
 
-<style>
-/* Background image and general page styling */
-.home {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  color: #fff;
-  background: url('/src/assets/techfix.png');
+<style scoped>
+.background-container {
+  position: fixed;
+  background: url('@/assets/BG(1).PNG') no-repeat center center;
   background-size: cover;
-  min-height: 100px;
-  min-width: 225px;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff; /* Text color to contrast with the background */
 }
 
-/* Header styling */
-header {
-  padding: 20px;
-  margin-top: 100px;
-  border-radius: 10px;
+.content-container {
+  text-align: left; /* Align text to the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start of the container */
+  padding: 20px; /* Add some padding */
+
+  margin-right: 140vh;
+  margin-bottom: 10vh;
 }
 
-.title {
-  margin: 0;
-  font-size: 2.0em;
-  text-align: justify;
-  color: rgb(255, 255, 255);
+.logo {
+  width: 250px; /* Adjust the size of the logo */
+  height: 250px; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space between logo and heading */
+}
+
+h1 {
+  font-size: 3em; /* Adjust font size */
+  font-weight: bold; /* Make font bold */
+  margin: 0; /* Remove default margins */
+  color: #fff; /* White color for text */
 }
 
 .p1 {
+  position: relative;
+  font-size: 1.5em;
   text-align: justify;
-  color: rgb(255, 255, 255);
-} 
-
-.logo {
-  width: 150px;
-  height: 150px;
 }
 
-header {
-  font-size: 1.2em;
-  margin-top: -2vh;
-  margin-right: 120vh;
-}
-
-.nav-link:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive styling */
+/* Responsive styling (optional) */
 @media (max-width: 600px) {
-  header h2 {
-    font-size: 2em;
-  }
-
-  .nav-link {
-    padding: 10px 20px;
-    font-size: 1em;
+  .p1 {
+    font-size: 1.2em;
+    text-align: justify;
   }
 }
 </style>

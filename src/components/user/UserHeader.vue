@@ -1,28 +1,29 @@
 <template>
   <div>
-  <header>
+    <header>
+      <h2>TechFix</h2> 
 
-     <h1>TechFix</h1> 
-
-    <div class="button-container">
-          <button @click="handleClick('Button 1')" class="button">Home</button>
-          <button @click="handleClick('Button 2')" class="button">Our Services</button>
-          <button @click="handleClick('Button 3')" class="button">Contact Us</button>
+      <div class="button-container">
+        <router-link class="button" active-class="active" to="/home">
+          <i class='bx bxs-home'></i>
+          <span class="text">Home</span>
+        </router-link>
+        <router-link class="button" active-class="active" to="/services">
+          <span class="text">Our Services</span>
+        </router-link>
+        <router-link class="button" active-class="active" to="/contact">
+          <span class="text">Contact Us</span>
+        </router-link>
       </div> 
-
-  </header>
+    </header>
   </div>
 </template>
 
 <script>
-
-
-
+// No changes needed here for routing
 </script>
 
-
 <style>
-  /* Reset any default margin/padding */
   body, html {
     margin: 0;
     padding: 0;
@@ -40,36 +41,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+
+    font-size: 1.2em;
+    margin-top: -2vh;
+    margin-right: 120vh;
   }
 
-  h1 {
-    margin: 0;
+  h2 {
+    margin: 2vh;
   }
 
-  /* .button-container { 
+  .button-container { 
     margin-right: 60px;
     display: flex;
     gap: 10px; /* Space between buttons */
-  
+  }
 
-  /* .button { 
+  .button { 
     color: white;
     border: none;
     padding: 8px 16px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for buttons */
     transition: background-color 0.3s ease;
-  */
+    text-decoration: none; /* Remove underline for router-link */
+    display: flex;
 
-  /* .button:hover { 
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+  .button:hover { 
     background-color: rgba(0, 0, 0, 0.7);
-  */
+  }
 
-  
   body {
     padding-top: 50px;
   }
 </style>
-

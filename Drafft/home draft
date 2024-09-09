@@ -1,4 +1,4 @@
-<template>
+/* <template> 
   <div class="home">
       
     <header>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style>
-/* Background image and general page styling */
+/* Background image and general page styling
 .home {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -37,7 +37,7 @@ export default {
   align-items: center;
 }
 
-/* Header styling */
+/* Header styling 
 header {
   padding: 20px;
   margin-top: 100px;
@@ -71,7 +71,7 @@ header {
   background-color: #0056b3;
 }
 
-/* Responsive styling */
+/* Responsive styling 
 @media (max-width: 600px) {
   header h2 {
     font-size: 2em;

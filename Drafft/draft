@@ -1,4 +1,4 @@
-<template>
+/* <template>
 
   <div class="home">
           
@@ -30,7 +30,7 @@ export default {
 
 
 <style>
-/* Background image and general page styling */
+/* Background image and general page styling 
 .home {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -45,7 +45,7 @@ export default {
   align-items: center;
 }
 
-/* Header styling */
+/* Header styling 
 header {
   padding: 20px;
   margin-top: 100px;
@@ -84,7 +84,7 @@ footer {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  text-align: center; /* Center text horizontally */
+  text-align: center; /* Center text horizontally 
 }
 
 footer p {
@@ -92,7 +92,7 @@ footer p {
   font-size: 0.9em;
 }
 
-/* Responsive styling */
+/* Responsive styling 
 @media (max-width: 600px) {
   header h2 {
     font-size: 2em;
