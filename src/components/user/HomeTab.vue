@@ -1,5 +1,5 @@
 <template>
-  <main class="background-container">
+  <main>
     <div class="content-container">
 
       <img src="@/assets/techfix.png" alt="TechFix Logo" class="logo" />
@@ -17,17 +17,6 @@ export default {
 </script>
 
 <style scoped>
-.background-container {
-  position: fixed;
-  background: url('@/assets/BG(1).PNG') no-repeat center center;
-  background-size: cover;
-  height: 100vh; /* Full viewport height */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff; /* Text color to contrast with the background */
-}
 
 .content-container {
   text-align: left; /* Align text to the left */
@@ -36,8 +25,8 @@ export default {
   align-items: flex-start; /* Align items to the start of the container */
   padding: 20px; /* Add some padding */
 
-  margin-right: 140vh;
   margin-bottom: 10vh;
+  margin-right: 130vh;
 }
 
 .logo {
@@ -47,6 +36,7 @@ export default {
 }
 
 h1 {
+  text-align: justify;
   font-size: 3em; /* Adjust font size */
   font-weight: bold; /* Make font bold */
   margin: 0; /* Remove default margins */
