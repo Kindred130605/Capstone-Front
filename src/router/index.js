@@ -3,6 +3,8 @@ import Home from '@/components/user/HomeTab.vue'; // Adjust the path according t
 import Services from '@/components/user/ServicesBar.vue'; // Adjust the path according to your structure
 import ContactUs from '@/components/user/ContactUs.vue'; // Adjust the path according to your structure
 
+
+
 const routes = [
   { path: '/home', component: Home },
   { path: '/services', component: Services },
