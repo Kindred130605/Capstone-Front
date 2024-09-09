@@ -1,8 +1,12 @@
 <template>
   <div class="home">
       
+    <header>
+      <img src="/src/assets/techfix.png" class="logo" />
 
-
+      <h2 class="title">Welcome to <br>TechFix</h2>
+      <p class="p1">Your repair starts here!</p>
+    </header>
 
     <main>
 

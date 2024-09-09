@@ -2,13 +2,13 @@
   <div>
   <header>
 
-    <!-- <h1>TechFix</h1> 
+     <h1>TechFix</h1> 
 
     <div class="button-container">
           <button @click="handleClick('Button 1')" class="button">Home</button>
           <button @click="handleClick('Button 2')" class="button">Our Services</button>
           <button @click="handleClick('Button 3')" class="button">Contact Us</button>
-      </div>  -->
+      </div> 
 
   </header>
   </div>
@@ -31,19 +31,19 @@
   header {
     background-color: rgb(16, 17, 104);
     color: white;
-    width: 100%; /* Ensure header spans the full width */
-    position: fixed; /* Fix position at the top */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    z-index: 1000; /* Ensure it is on top of other content */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better visibility */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     display: flex;
-    justify-content: space-between; /* Space out h1 and button container */
-    align-items: center; /* Vertically center content */
+    justify-content: space-between;
+    align-items: center;
   }
 
   h1 {
-    margin: 0; /* Remove margin to avoid overflow */
+    margin: 0;
   }
 
   /* .button-container { 
