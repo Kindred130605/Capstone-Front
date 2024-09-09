@@ -1,0 +1,85 @@
+<template>
+  <div class="home">
+      
+    <header>
+      <img alt="Vue Logo" src="C:\Users\Seann\Documents\GitHub\capstone-frontend\src\assets\techfix.png" class="logo" />
+
+      <h2 class="title">Welcome to <br>TechFix</h2>
+      <p class="p1">Your repair starts here!</p>
+    </header>
+
+    <main>
+
+    </main>
+
+  </div> 
+</template>
+
+<script>
+export default {
+  name: 'LandingPage'
+}
+</script>
+
+<style>
+/* Background image and general page styling */
+.home {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  background: url('C:\Users\Seann\Documents\GitHub\capstone-frontend\src\assets\BG(1).PNG') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 225vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header styling */
+header {
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.0em;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+.p1 {
+  text-align: justify;
+  color: rgb(255, 255, 255);
+} 
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+header {
+  font-size: 1.2em;
+  margin-top: -2vh;
+  margin-right: 120vh;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  header h2 {
+    font-size: 2em;
+  }
+
+  .nav-link {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+}
+</style>
