@@ -11,13 +11,18 @@
         <router-link class="button" active-class="active" to="/services">
           <span class="text">Our Services</span>
         </router-link>
+        <router-link class="button" active-class="active" to="/checkstatus">
+          <span class="text">Check Status</span>
+        </router-link>
         <router-link class="button" active-class="active" to="/contact">
           <span class="text">Contact Us</span>
         </router-link>
+        <!-- New link for the exclusive content page -->
       </div> 
     </header>
   </div>
 </template>
+
 
 <script>
 // No changes needed here for routing

@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '@/components/user/HomeTab.vue'; // Adjust the path according to your structure
-import Services from '@/components/user/ServicesBar.vue'; // Adjust the path according to your structure
-import ContactUs from '@/components/user/ContactUs.vue'; // Adjust the path according to your structure
-
-
+import Home from '@/components/user/HomeTab.vue';
+import Services from '@/components/user/ServicesBar.vue';
+import ContactUs from '@/components/user/ContactUs.vue';
+import CheckStatus from '@/components/user/CheckStatus.vue';
 
 const routes = [
   { path: '/home', component: Home },
   { path: '/services', component: Services },
-  { path: '/contact', component: ContactUs }
+  { path: '/contact', component: ContactUs },
+  { path: '/checkstatus', component: CheckStatus }
 ];
 
 const router = createRouter({
