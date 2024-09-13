@@ -23,20 +23,19 @@ export default {
 
 <style scoped>
 
-/* General styling */
 .content-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally */
+  align-items: center;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  font-size: 4.5em; /* Adjust font size */
-  font-weight: bold; /* Make font bold */
-  margin: 0 0 20px 0; /* Remove top margin and add bottom margin */
-  color: #fff; /* White color for text */
+  font-size: 4.5em;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  color: #fff;
 }
 
 .grid-container {

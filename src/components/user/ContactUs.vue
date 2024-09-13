@@ -50,17 +50,17 @@
   </script>
   
   <style scoped>
-  .background-container {
-    position: fixed;
-    background: url('@/assets/BG(3).PNG') no-repeat center center;
-    background-size: cover;
-    height: 100vh; /* Full viewport height */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff; /* Text color to contrast with the background */
-  }
+.background-container {
+  position: fixed;
+  background: blue; /* Replace the image with a solid blue color */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Text color to contrast with the blue background */
+}
+
   
   .container {
     display: flex;
@@ -151,4 +151,3 @@
     background-color: #0056b3;
   }
   </style>
-  
